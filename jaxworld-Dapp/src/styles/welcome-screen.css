@@ -1,0 +1,47 @@
+.welcome-screen{
+  width: 90%;
+  display: flex;
+  font-family: 'Fjalla One', sans-serif;
+  margin-top: 110px;
+  margin-block-end: 110px;
+  }
+  
+
+  .welcome-screen.text {
+    margin-left: auto;
+    margin-right: auto;
+    width: 370px;
+
+    background-color: rgba(214, 144, 86, 0.979);
+    box-shadow: 0 0 20px 0px ,inset #8e4f3b  0 0 20px 0px;
+    box-shadow: 0 0 10px 0px, inset 0px 0px 0px 0px rgb(216, 233, 238);
+    border-radius: 15%;
+    color: rgba(82, 4, 4, 0.877) !important;
+    font-weight: bolder;
+    font-size: 17px;
+    opacity: 0.8;
+    animation: rot 2s infinite ease;
+  }
+
+  .welcome-screen.text p {
+    margin-top: 15px;
+    margin-left: auto;
+    margin-left: auto;
+    text-align: center;
+    font-size: 20px;
+  }
+  
+  
+  @keyframes rot {
+    0% {
+      transform: rotateX(-15deg) translateY(0px);
+    }
+  
+    50% {
+      transform: rotateX(-15deg) translateY(-10px);
+    }
+  
+    100% {
+      transform: rotateX(-15deg) translateY(0px);
+    }
+  }
